@@ -1,0 +1,22 @@
+{
+  "name": "gesture-controlled-particles",
+  "version": "1.0.0",
+  "description": "AI-powered gesture-controlled particle system",
+  "main": "src/worker.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "keywords": [
+    "particles",
+    "gesture-control",
+    "three.js",
+    "mediapipe",
+    "cloudflare-workers"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
