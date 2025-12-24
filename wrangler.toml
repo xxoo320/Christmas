@@ -1,3 +1,4 @@
 name = "gesturecontrolledparticles"
 main = "src/worker.js"
 compatibility_date = "2024-12-01"
+account_id = "c9bf951ae8f440e3316888b24ab79fac"
