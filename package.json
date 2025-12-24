@@ -4,7 +4,7 @@
   "description": "AI-powered gesture-controlled particle system",
   "main": "src/worker.js",
   "scripts": {
-    "dev": "wrangler dev --host 0.0.0.0",
+    "dev": "wrangler dev --host 0.0.0.0 --port $PORT",
     "deploy": "wrangler deploy",
     "start": "npm run dev"
   },
