@@ -5,7 +5,8 @@
   "main": "src/worker.js",
   "scripts": {
     "dev": "wrangler dev",
-    "deploy": "wrangler deploy"
+    "deploy": "wrangler deploy",
+    "start": "npm run dev"  // 添加这一行
   },
   "keywords": [
     "particles",
@@ -17,6 +18,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "http-server": "^14.1.1",
     "wrangler": "^4.0.0"
   }
 }
