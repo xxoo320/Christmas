@@ -1,10 +1,5 @@
 // Cloudflare Worker to serve the application
 
-const PORT = process.env.PORT || 8787;  
-app.listen(PORT, () => {
-  console.log(`Server is running on http://0.0.0.0:${PORT}`);
-});
-
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
