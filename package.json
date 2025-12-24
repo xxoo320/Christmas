@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
-    "start": "npm run dev"  // 添加这一行
+    "start": "npm run dev"
   },
   "keywords": [
     "particles",
