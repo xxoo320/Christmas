@@ -2,11 +2,10 @@
   "name": "gesture-controlled-particles",
   "version": "1.0.0",
   "description": "AI-powered gesture-controlled particle system",
-  "main": "src/worker.js",
+  "main": "index.html",
   "scripts": {
-    "dev": "wrangler dev",
-    "deploy": "wrangler deploy",
-    "start": "npm run dev"
+    "dev": "http-server public",
+    "start": "http-server public"
   },
   "keywords": [
     "particles",
@@ -18,7 +17,6 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "http-server": "^14.1.1",
-    "wrangler": "^4.0.0"
+    "http-server": "^14.1.1"
   }
 }
